@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Greet Labs</title>
+    <link rel="stylesheet" href="bs.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Greet Labs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto gap-3">
+                <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">COMPANY</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CAREERS</a></li>
+                <li class="nav-item"><a class="nav-link active-btn" href="#">CONTACT US</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">HIRE US</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Title -->
+<div class="bg-light py-3">
+    <div class="container">
+        <h4 class="mb-0">CONTACT US</h4>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="container my-5">
+    <div class="row g-4">
+
+        <!-- Contact Form -->
+        <div class="col-md-6">
+            <h2 class="section-title">Send us an Email</h2>
+
+            <form>
+                <div class="row mb-2">
+                    <div class="col-md-4">
+                        <label class="form-label">Name *</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Email *</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <label class="form-label">Phone</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                       <label class="form-label">Subject *</label>
+                       <input type="text" class="form-control" required>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <label class="form-label">Services</label>
+                        <select class="form-select">
+                            <option selected>-- Select One --</option>
+                            <option>Web Development</option>
+                            <option>Mobile App Development</option>
+                            <option>Cloud Services</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="mb-4">
+                    <label class="form-label">Message *</label>
+                    <textarea class="form-control" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">SUBMIT COMMENT</button>
+            </form>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-md-6">
+            <iframe
+                src="https://www.google.com/maps?q=Greet+Labs+Private+Limited+Bangalore&output=embed" allowfullscreen loading="lazy" class="w-100" style="height: 400px; border: 0;"></iframe>
+            </iframe>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
